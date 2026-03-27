@@ -93,7 +93,7 @@ export default function AboutSection() {
 
               <div className="mt-10">
                 <a
-                  href="https://drive.google.com/file/d/1R-kI1lT77BCQimmwUSWRpzbUiTZ2Z39i/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1jfKYBElcgGiFXWMdXekjxFX9MMPALXNT/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-xl border border-cyan-300/40 bg-cyan-400/10 px-4 py-2 text-cyan-200 hover:bg-cyan-400/20 hover:border-cyan-300/60 transition"

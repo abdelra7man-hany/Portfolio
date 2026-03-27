@@ -14,7 +14,7 @@ type Experience = {
 const EXPERIENCES: Experience[] = [
   // Professional Experience
   {
-    title: "Developer Technical Service Expert",
+    title: "Cloud Engineer",
     org: "Huawei",
     period: "03/2025 – Present",
     bullets: [
