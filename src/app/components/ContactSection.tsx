@@ -55,74 +55,6 @@ export default function ContactSection() {
   }
 
   return (
-    // <div className="w-full max-w-3xl mx-auto px-6">
-    //   <div className="relative rounded-3xl border border-white/10 bg-black/30 p-6 sm:p-8 shadow-[0_10px_40px_rgba(0,0,0,0.25)]">
-    //     <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-br from-white/[0.04] to-transparent" />
-    //     <form onSubmit={onSubmit} className="relative grid gap-5">
-    //       <input type="text" name="company" tabIndex={-1} autoComplete="off" className="hidden" />
-
-    //       <div className="grid gap-4 sm:grid-cols-2">
-    //         <Field label="Name" htmlFor="name">
-    //           <Input id="name" name="name" placeholder="Your name" required />
-    //         </Field>
-    //         <Field label="Email" htmlFor="email">
-    //           <Input id="email" name="email" type="email" placeholder="you@email.com" required />
-    //         </Field>
-    //       </div>
-
-    //       <Field label="Message" htmlFor="message">
-    //         <Textarea id="message" name="message" placeholder="Tell me a bit about your project…" required />
-    //       </Field>
-
-    //       <div className="flex items-center gap-3 pt-2">
-    //         <button
-    //           type="submit"
-    //           disabled={status.type === "sending"}
-    //           className="inline-flex items-center justify-center rounded-xl px-5 py-2.5 text-sm font-medium text-white transition border border-white/10"
-    //           style={{
-    //             background: "rgba(0,191,255,0.15)",
-    //             borderColor: `${ACCENT}33`,
-    //           }}
-    //           onMouseEnter={(e) => {
-    //             e.currentTarget.style.background = "rgba(0,191,255,0.22)";
-    //             e.currentTarget.style.borderColor = `${ACCENT}66`;
-    //           }}
-    //           onMouseLeave={(e) => {
-    //             e.currentTarget.style.background = "rgba(0,191,255,0.15)";
-    //             e.currentTarget.style.borderColor = `${ACCENT}33`;
-    //           }}
-    //         >
-    //           {status.type === "sending" ? "Sending..." : "Send message"}
-    //         </button>
-
-    //         {status.type === "ok" && (
-    //           <p className="text-sm text-emerald-400">{status.message}</p>
-    //         )}
-    //         {status.type === "error" && (
-    //           <p className="text-sm text-red-400">{status.message}</p>
-    //         )}
-
-    //         <div className="ml-auto flex items-center gap-3 text-sm">
-    //           <span className="underline-offset-4 hover:opacity-80">
-    //             abdelrahmanhany536@gmail.com
-    //           </span>
-    //           <span className="opacity-40">•</span>
-    //           <a href="https://github.com/Boda1515" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:opacity-80">
-    //             GitHub
-    //           </a>
-    //           <span className="opacity-40">•</span>
-    //           <a href="https://www.linkedin.com/in/abdelrahman-hany-cloud-data-engineer/" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:opacity-80">
-    //             LinkedIn
-    //           </a>
-    //           <span className="opacity-40">•</span>
-    //           <a href="https://www.instagram.com/abdelrahman15102/" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:opacity-80">
-    //             Instagram
-    //           </a>
-    //         </div>
-    //       </div>
-    //     </form>
-    //   </div>
-    // </div>
     <div
   className="
     w-full 
@@ -203,7 +135,7 @@ export default function ContactSection() {
           {/* Social links group */}
           <div className="flex flex-wrap justify-center sm:justify-end items-center gap-3">
             <a
-              href="https://github.com/Boda1515"
+              href="https://github.com/abdelra7man-hany"
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-4 hover:opacity-80"
